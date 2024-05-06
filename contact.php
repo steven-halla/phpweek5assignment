@@ -24,19 +24,19 @@
     <div class="menuitem">
         <a href="contact.html">
             <img src="s-logo.gif" alt="" height="20" width="20" />
-            <span class="menutext" >Contact</span>
+            <span class="menutext" style='color: red;'>Contact</span>
         </a>
     </div>
 
     <div class="menuitem">
-        <a href="services.html">
+        <a href="services.php">
             <img src="s-logo.gif" alt="" height="20" width="20" />
-            <span class="menutext" style='color: red;'>Services</span>
+            <span class="menutext">Services</span>
         </a>
     </div>
 
     <div class="menuitem">
-        <a href="about.html">
+        <a href="about.php">
             <img src="s-logo.gif" alt="" height="20" width="20" />
             <span class="menutext">About</span>
         </a>
@@ -46,7 +46,7 @@
 <section>
     "<p style='color: red; font-weight: bold; font-size: 18px;'>Steven Halla, CIS 243</p>";
 
-    <h2>Welcome to the Services Page of TLA Consulting.</h2>
+    <h2>Welcome to the Contact Page of TLA Consulting.</h2>
 
 </section>
 

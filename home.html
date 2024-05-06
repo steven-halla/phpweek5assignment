@@ -22,21 +22,21 @@
     </div>
 
     <div class="menuitem">
-      <a href="contact.html">
+      <a href="contact.php">
       <img src="s-logo.gif" alt="" height="20" width="20" />  
       <span class="menutext">Contact</span>
       </a>
     </div>
 
     <div class="menuitem">
-      <a href="services.html">
+      <a href="services.php">
       <img src="s-logo.gif" alt="" height="20" width="20" /> 
       <span class="menutext">Services</span>
       </a>
     </div>
 
     <div class="menuitem">
-      <a href="about.html">
+      <a href="about.php">
       <img src="s-logo.gif" alt="" height="20" width="20" /> 
       <span class="menutext">About</span>
       </a>
