@@ -12,6 +12,18 @@ function larger($x, $y){
   }
 }
 
+function smaller($x, $y) {
+  if (!isset($x) || !isset($y)) {
+    return false;
+  } else if ($x <= $y) {
+    return $x;
+  } else {
+    return $y;
+  }
+}
+
+
+
 $a = 1;
 $b = 2.5;
 $c = 1.9;
@@ -29,6 +41,9 @@ echo "\$d = NULL";;
 echo "<br><br>";
 
 echo "larger(\$a, \$b) = " . larger($a, $b) . '<br />';
-echo "larger(\$c, \$a) = " . larger($c, $a) . '<br />';
+echo "larger(\$c, \$a) = " . larger($c, $a) . '<br /><br />';
+
+echo "smaller(\$a, \$b) = " . smaller($a, $b) . '<br />';
+echo "smaller(\$c, \$a) = " . smaller($c, $a) . '<br />';
 
 ?>
